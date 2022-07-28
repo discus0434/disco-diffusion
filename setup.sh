@@ -24,6 +24,7 @@ conda install -n diffusion -y jupyter ipykernel opencv pandas numpy matplotlib s
 wget https://github.com/intel-isl/DPT/releases/download/1_0/dpt_large-midas-2f21e586.pt -P models
 wget https://the-eye.eu/public/AI/models/512x512_diffusion_unconditional_ImageNet/512x512_diffusion_uncond_finetune_008100.pt -P models
 wget https://the-eye.eu/public/AI/models/v-diffusion/secondary_model_imagenet_2.pth -P models
+wget https://huggingface.co/felipe3dartist/portrait_generator_v1.5/resolve/main/ema_0.9999_165000.pt -P models
 
 ############################
 # For diffusion inpainting
